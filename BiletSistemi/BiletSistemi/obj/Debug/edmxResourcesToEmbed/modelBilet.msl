@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OtobusBiletModelStoreContainer" CdmEntityContainer="OtobusBiletEntities2">
+    <EntitySetMapping Name="Admin">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bilet">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Bilet">
+        <MappingFragment StoreEntitySet="Bilet">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="YolcuId" ColumnName="YolcuId" />
+          <ScalarProperty Name="SeferId" ColumnName="SeferId" />
+          <ScalarProperty Name="KoltukNo" ColumnName="KoltukNo" />
+          <ScalarProperty Name="YolcuAd" ColumnName="YolcuAd" />
+          <ScalarProperty Name="YolcuSoyad" ColumnName="YolcuSoyad" />
+          <ScalarProperty Name="YolcuCinsiyet" ColumnName="YolcuCinsiyet" />
+          <ScalarProperty Name="Ucret" ColumnName="Ucret" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kaptan">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Kaptan">
+        <MappingFragment StoreEntitySet="Kaptan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="TcNO" ColumnName="TcNO" />
+          <ScalarProperty Name="TelNO" ColumnName="TelNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Muavin">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Muavin">
+        <MappingFragment StoreEntitySet="Muavin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="TcNo" ColumnName="TcNo" />
+          <ScalarProperty Name="TelNo" ColumnName="TelNo" />
+          <ScalarProperty Name="Yas" ColumnName="Yas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otobus">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Otobus">
+        <MappingFragment StoreEntitySet="Otobus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="KoltukSayısı" ColumnName="KoltukSayısı" />
+          <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sefer">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Sefer">
+        <MappingFragment StoreEntitySet="Sefer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="KalkıisId" ColumnName="KalkıisId" />
+          <ScalarProperty Name="VarısId" ColumnName="VarısId" />
+          <ScalarProperty Name="OtobusId" ColumnName="OtobusId" />
+          <ScalarProperty Name="KaptanId" ColumnName="KaptanId" />
+          <ScalarProperty Name="MuavinId" ColumnName="MuavinId" />
+          <ScalarProperty Name="SeferUcret" ColumnName="SeferUcret" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sehir">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Sehir">
+        <MappingFragment StoreEntitySet="Sehir">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="SehirAd" ColumnName="SehirAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="OtobusBiletModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yolcu">
+      <EntityTypeMapping TypeName="OtobusBiletModel.Yolcu">
+        <MappingFragment StoreEntitySet="Yolcu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="TcNO" ColumnName="TcNO" />
+          <ScalarProperty Name="TelNO" ColumnName="TelNO" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="YolcuMail" ColumnName="YolcuMail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

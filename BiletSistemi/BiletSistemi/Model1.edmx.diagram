@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="de1fe660b2924b3aa5a4e2d028d63268" Name="Diagram1" ZoomLevel="25">
+        <EntityTypeShape EntityType="OtobusBiletModel.Admin" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.AktifSefer" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Bilet" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Kaptan" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Muavin" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Otobus" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Sefer" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Sehir" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtobusBiletModel.Yolcu" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="OtobusBiletModel.FK_AktifSefer_Sefer" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Bilet_Sefer" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Sefer_Kaptan" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Sefer_Muavin" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Sefer_Otobus" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Sefer_Sehir2" ManuallyRouted="false" />
+        <AssociationConnector Association="OtobusBiletModel.FK_Sefer_Sehir3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
